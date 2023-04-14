@@ -1,0 +1,65 @@
+#newsletter {
+
+    @mixin fieldsetTheme($weight, $size, $lh) {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: $weight;
+        font-size: $size;
+        line-height: $lh;
+    }
+
+    margin-top: 48px;
+    background-color: #007A89;
+    color: white;
+    padding: 30px;
+    // font-family: 'Lato';
+    // font-style: normal;
+    // font-weight: 700;
+    // font-size: 20px;
+
+    @include fieldsetTheme(700, 20px, 110%);
+
+    .container {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container-news {
+        margin-right: 10px;
+    }
+
+    input,
+    label {
+        display: block;
+    }
+
+    label {
+        @include fieldsetTheme(600, 16px, 140%);
+    }
+
+    input,
+    select {
+        padding: 12px;
+    }
+
+    .status,
+    .email {
+        float: left;
+    }
+
+    .email {
+        margin-right: 10px;
+    }
+
+    #news-submit {
+        border: none;
+        background-color: #F26522;
+        border-radius: 4px;
+        color: white;
+
+        @include fieldsetTheme(700, 18px, 100%);
+    }
+}

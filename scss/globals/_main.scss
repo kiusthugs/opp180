@@ -1,0 +1,68 @@
+h2 {
+    text-align: center;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    margin-top: 48px;
+}
+
+.learn-more {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    div {
+        width: 32%;
+    }
+
+    h3 {
+        padding: 23px 25px;
+        margin: 0;
+        font-family: 'Gotham', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 110%;
+        color: white;
+    }
+
+    .learn-o {
+        background-color: #F26522;
+    }
+
+    .learn-b {
+        background-color: #0096A9;
+    }
+
+    .learn-g {
+        background-color: #72A94E;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+    }
+
+    button {
+        border: none;
+        border-radius: 4px;
+        padding: 16px 32px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        color: white;
+    }
+}

@@ -1,0 +1,65 @@
+footer {
+    background-color: #0096A9;
+    color: white;
+    padding: 60px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+
+    h4 {
+        font-family: 'Paytone One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 130%;
+        max-width: 270px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    li {
+        list-style: none;
+        margin-bottom: 8px;
+        width: 100%;
+    }
+
+    #discover-list li {
+        flex: 50%;
+    }
+
+    ul {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h5 {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    #p-number {
+        margin: 20px 0;
+    }
+    
+    #links-push {
+        margin-left: 150px;
+    }
+}
